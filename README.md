@@ -46,30 +46,6 @@ If you are developing a production application, we recommend using TypeScript wi
 - This project uses React with Vite for fast development.
 - ESLint is configured for code quality.
 
-## Project Structure
-
-- `frontend/HMS/src/` - Contains all the React source code.
-  - `assets/` - Static assets like images and icons.
-  - `components/` - Reusable UI components.
-  - `components/layouts/` - Layout components for different page structures.
-  - `components/forms/` - Form components used in the app.
-  - `components/ui/` - UI elements like buttons, inputs, cards, etc.
-  - `context/` - React context providers for state management.
-  - `pages/` - Page components for routing.
-    - `auth/` - Authentication related pages (Login, Register).
-    - `dashboard/` - Dashboard related pages.
-    - `admin/` - Admin panel pages.
-  - `lib/` - Utility functions and helpers.
-  - `config.js` - Configuration file for the frontend.
-  - `App.jsx` - Main React app component.
-  - `main.jsx` - Entry point for React app.
-
-- `backend/` - Contains backend server code.
-  - `models/` - Database models.
-  - `routes/` - API route handlers.
-  - `middleware/` - Express middleware.
-  - `utils/` - Utility scripts.
-  - `index.js` - Backend server entry point.
 
 ## Project Plan
 
@@ -94,3 +70,18 @@ If you are developing a production application, we recommend using TypeScript wi
    - Monitor and maintain the application.
 
 This structure and plan provide a clear overview of the project organization and development workflow.
+
+## Q&A
+
+**Q: What is this project about?**  
+A: This is a Hostel Management System designed to manage hostel operations including room bookings, payments, complaints, and student management.
+
+**Q: What technologies are used?**  
+A: The frontend is built with React and Vite, and the backend uses Node.js with Express and MongoDB.
+
+**Q: How do I run the project?**  
+A: Follow the installation and running instructions provided in the Project Instructions section above.
+
+**Q: Who can use this system?**  
+A: Hostel administrators, students, and staff can use this system to manage and access hostel-related information efficiently.
+
